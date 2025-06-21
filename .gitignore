@@ -1,0 +1,4 @@
+bin/
+build/
+build/CMakeFiles/
+simulation_results/
