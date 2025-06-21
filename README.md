@@ -12,3 +12,4 @@ It should follow the following DEVS diagram
 ## Plans for the Future
 -Create Neuron atomic model
 -Add loss functions with back propagation
+-See if DEVS offers better speeds than usual because of Abstract Simulator offering great parallelization on any standard CPU
