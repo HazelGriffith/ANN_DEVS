@@ -170,7 +170,7 @@ namespace cadmium::Neuron_Space {
 					case Neuron_States::Updating:
 						state.___current_state___ = Neuron_States::Forward_Pass;
 						for (int i = 0; i < state.weights.size(); i++){
-							state.weights[i] += lr*state.d_weights[i];
+							state.weights[i] -= lr*state.d_weights[i];
 						}
 						state.weighted_sum = state.input_values.back()*state.weights.back();
 						state.inputs_received = 0;
